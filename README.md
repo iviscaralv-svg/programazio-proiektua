@@ -21,10 +21,10 @@ Proiektua zure makinako ingurunean martxan jartzeko, jarraitu pauso hauek:
 
 ```bash
 # Biltegia klonatu
-git clone https://github.com/zu-usuario/zu-repo.git
+git clone https://github.com/iviscaralv-svg/programazio-proiektua.git
 
 # Direktorioan sartu
-cd zu-repo
+cd programazio-proiektua
 
 # Proiektua eraiki
 dotnet build
