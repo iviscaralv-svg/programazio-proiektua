@@ -2,8 +2,9 @@
 
 ![Banner](Program-image.png)
 
-Una breve descripción de tu proyecto: qué hace, para quién es y por qué es útil.
+[![wakatime](https://wakatime.com/badge/user/a79b1042-0281-4db8-aeb2-8329a335b1a9/project/ad3f76dd-5573-43b2-9c73-bc92acdf0239.svg)](https://wakatime.com/badge/user/a79b1042-0281-4db8-aeb2-8329a335b1a9/project/ad3f76dd-5573-43b2-9c73-bc92acdf0239)
 
+Nire kasuan jatexte baten eskaera menua egin behar nuen, hona hemen proiektua.
 ---
 
 ## 🛠 Teknologiak
