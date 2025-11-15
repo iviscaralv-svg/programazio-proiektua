@@ -12,7 +12,7 @@ Proiektu honek honako hauek erabiltzen ditu:
 
 - [C#](https://learn.microsoft.com/dotnet/csharp/)
 - [.NET](https://dotnet.microsoft.com/)
-- 
+
 ---
 
 ## 💻 Instalazioa
