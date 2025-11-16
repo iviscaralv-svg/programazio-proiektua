@@ -170,7 +170,7 @@ public class Program
                         Console.WriteLine(" 5) Coca-Cola");
                         Console.WriteLine(" 6) Kas Laranja");
                         Console.WriteLine(" 7) Kas Limoia");
-                        
+
                         // erabiltzaileari galdetu
                         int userEdaria = int.Parse(Console.ReadLine()!);
 
@@ -202,8 +202,28 @@ public class Program
                         for (int i = 0; i < lista.Count; i++)
                         {
                             // listatik zenbakiak pasatzen joaten da
-                            Console.WriteLine($"{i + 1}) {lista[i]}");
+                            Console.WriteLine($"{i}) {lista[i]}");
                         }
+
+                        Console.WriteLine("Ezabatzeko jarri id zenbakia edo x ez ezabatzeko: ");
+                        string? userDelete = Console.ReadLine().ToLower();
+
+                        switch (userDelete)
+                        {
+                            case "no": 
+                                Console.WriteLine("Ez da ezer ezabatuko.");
+                                break;
+                            case "": 
+                                Console.WriteLine("Ez da ezer ezabatuko.");
+                                break;
+                            case "x":
+                                Console.WriteLine("Ez da ezer ezabatuko.");
+                                break;
+                            default:
+                                EzabatuEskera(lista, int.Parse(userDelete));
+                                break;
+                        }
+
                         Console.WriteLine("\n");
                         break;
 
@@ -228,4 +248,10 @@ public class Program
         // Add bidez eskera gehitu -> funtzioari pasatutako aldagaiak erabiliz
         lista.Add($"Izena: {izena} | Lehenengo: {lehenengo} | Bigarren: {bigarren} | Postrea: {postrea} | Edaria: {edaria} | Sortuta: {DateTime.Now}");
     }
+
+    public static void EzabatuEskera(List<string> lista, int index)
+    {
+        lista.RemoveAt(index);
+    }
+
 }
