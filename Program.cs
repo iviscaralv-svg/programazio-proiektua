@@ -64,6 +64,9 @@ public class Program
                         Console.WriteLine(" 1) Ensalada");
                         Console.WriteLine(" 2) Spaghetti");
                         Console.WriteLine(" 3) Arroz zopa");
+                        Console.WriteLine(" 4) Tomate eta mozzarella entsalada");
+                        Console.WriteLine(" 5) Kalabaza-krema");
+                        Console.WriteLine(" 6) Gazpatxoa");
 
                         // erabiltzaileari galdetu
                         int userLehenengo = int.Parse(Console.ReadLine()!);
@@ -80,6 +83,15 @@ public class Program
                             case 3:
                                 lehenengo = "Arroz zopa";
                                 break;
+                            case 4:
+                                lehenengo = "Tomate eta mozzarella entsalada";
+                                break;
+                            case 5:
+                                lehenengo = "Kalabaza-krema";
+                                break;
+                            case 6:
+                                lehenengo = "Gazpatxoa";
+                                break;
                             default:
                                 Console.WriteLine($"{rojo}Error: Aukera ez da ulertzen{reset}");
                                 break;
@@ -89,6 +101,9 @@ public class Program
                         Console.WriteLine(" 1) Hamburguesa");
                         Console.WriteLine(" 2) Merluza");
                         Console.WriteLine(" 3) Oilaskoa");
+                        Console.WriteLine(" 4) Txuleta plantxan");
+                        Console.WriteLine(" 5) Bakailao al pil-pil");
+                        Console.WriteLine(" 6) Barazki-tarta salda batekin");
 
                         // erabiltzaileari galdetu
                         int userBigarren = int.Parse(Console.ReadLine()!);
@@ -105,6 +120,15 @@ public class Program
                             case 3:
                                 bigarren = "Oilaskoa";
                                 break;
+                            case 4:
+                                bigarren = "Txuleta plantxan";
+                                break;
+                            case 5:
+                                bigarren = "Bakailao al pil-pil";
+                                break;
+                            case 6:
+                                bigarren = "Barazki-tarta salda batekin";
+                            break;
                             default:
                                 Console.WriteLine($"{rojo}Error: Aukera ez da ulertzen{reset}");
                                 break;
@@ -114,6 +138,9 @@ public class Program
                         Console.WriteLine(" 1) Flan");
                         Console.WriteLine(" 2) Gazta");
                         Console.WriteLine(" 3) Vanilla");
+                        Console.WriteLine(" 4) Tiramisú");
+                        Console.WriteLine(" 5) Banillazko flana");
+                        Console.WriteLine(" 6) Fruta-makedonia");
 
                         // erabiltzaileari galdetu
                         int userHirugarren = int.Parse(Console.ReadLine()!);
@@ -139,7 +166,11 @@ public class Program
                         Console.WriteLine(" 1) Ura");
                         Console.WriteLine(" 2) Freskagarria");
                         Console.WriteLine(" 3) Laranja zukua");
-
+                        Console.WriteLine(" 4) Kafea");
+                        Console.WriteLine(" 5) Coca-Cola");
+                        Console.WriteLine(" 6) Kas Laranja");
+                        Console.WriteLine(" 7) Kas Limoia");
+                        
                         // erabiltzaileari galdetu
                         int userEdaria = int.Parse(Console.ReadLine()!);
 
@@ -196,6 +227,5 @@ public class Program
     {
         // Add bidez eskera gehitu -> funtzioari pasatutako aldagaiak erabiliz
         lista.Add($"Izena: {izena} | Lehenengo: {lehenengo} | Bigarren: {bigarren} | Postrea: {postrea} | Edaria: {edaria} | Sortuta: {DateTime.Now}");
-
     }
 }
